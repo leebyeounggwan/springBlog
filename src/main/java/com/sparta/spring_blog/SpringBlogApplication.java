@@ -1,16 +1,8 @@
 package com.sparta.spring_blog;
 
-import com.sparta.spring_blog.domain.Blog;
-import com.sparta.spring_blog.domain.BlogRepository;
-import com.sparta.spring_blog.domain.BlogRequestDto;
-import com.sparta.spring_blog.service.BlogService;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
-
-import java.util.List;
 
 
 @EnableJpaAuditing

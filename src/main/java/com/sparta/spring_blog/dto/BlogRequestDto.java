@@ -1,6 +1,8 @@
-package com.sparta.spring_blog.domain;
+package com.sparta.spring_blog.dto;
 
 
+import com.sparta.spring_blog.domain.Users;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -11,7 +13,6 @@ import lombok.Setter;
 @RequiredArgsConstructor
 public class BlogRequestDto {
     private final String title;
-    private final String userName;
-    private final int password;
+    private final Users users;
     private final String content;
 }
